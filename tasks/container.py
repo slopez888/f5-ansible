@@ -49,7 +49,7 @@ def container_update(c):
         '-f {0}/docker-compose.site.yaml'.format(CONFIG_DIR),
         'pull'
     ]
-    c.run(' '.join(cmd), hide='err')
+    c.run(' '.join(cmd))
 
 
 @task(help={'python': "Python version to use in container."})
