@@ -7,7 +7,7 @@
   vars:
     provider:
       password: admin
-      server: "{{ ansible_host }}"
+      server: 52.27.24.160
       user: admin
       validate_certs: no
       server_port: 8443
