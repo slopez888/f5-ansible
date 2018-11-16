@@ -6,11 +6,11 @@
 
   vars:
     provider:
-      password: "{{ f5_password }}"
+      password: admin
       server: "{{ ansible_host }}"
-      user: "{{ f5_username }}"
-      validate_certs: "{{ validate_certs }}"
-      server_port: "{{ f5_server_port }}"
+      user: admin
+      validate_certs: no
+      server_port: 8443
 
   tasks:
     - name: Create a pool
