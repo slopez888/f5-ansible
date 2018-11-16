@@ -7,7 +7,7 @@
   tasks:
     - name: COLLECT BIG-IP FACTS
       bigip_facts:
-        #include: system_info
+        include: system_info
         server: 52.39.230.78
         user: admin
         password: admin
